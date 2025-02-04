@@ -4987,3 +4987,23 @@ A value is trying to be set on a copy of a slice from a DataFrame
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
   train1.drop(['Id', 'SalePrice'], axis=1, inplace=True)
 
+2025-02-03 20:48:24,969:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-02-03 20:48:24,969:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-02-03 20:48:24,969:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-02-03 20:48:24,969:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-02-03 20:48:25,354:WARNING:C:\Users\Marco\AppData\Local\Temp\ipykernel_2640\2370580792.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  train1.dropna(axis=0, subset=['MasVnrArea', 'Electrical'], inplace=True)
+
+2025-02-03 20:48:26,653:WARNING:C:\Users\Marco\AppData\Local\Temp\ipykernel_2640\3475882426.py:4: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  train1.drop(['Id', 'SalePrice'], axis=1, inplace=True)
+
